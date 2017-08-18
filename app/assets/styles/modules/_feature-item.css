@@ -1,0 +1,31 @@
+.feature-item {
+    position: relative;
+    padding-bottom: 2.5rem;
+    
+    @media (min-width: 800px) {
+        padding-left: 94px;
+        }
+    
+    &__icon {
+        display: block;
+        margin: 0 auto;
+        
+        @media (min-width: 800px) {
+            position: absolute;
+            left: 0;
+        }
+    }
+    &__title {
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-bottom: .8rem;
+        margin-top: .8rem;
+        text-align: center;
+        
+        @media (min-width: 800px) {
+            text-align: left;
+            margin-top: 1em;
+            font-size: 1.875rem;
+        }
+    }
+}
