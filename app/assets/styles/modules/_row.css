@@ -11,6 +11,12 @@
     &--gutters-large > div {
         padding-right: 100px;
     }
+    &--gutters-small {
+        margin-right: -50px;
+    }
+    &--gutters-small > div {
+        padding-right: 50px;
+    }
     &__medium-4 {
         @media (min-width: 800px) {
         float: left;
@@ -47,6 +53,19 @@
         
         @media (min-width: 800px) {
         margin-bottom: 0;
+        }
+    }
+    &--t-padding {
+        padding-top: 80px;
+    }
+    /* Begin Equal Height Rules*/
+    &--equal-height-at-medium {
+        @media (min-width: 800px) {
+            display: flex;
+        }
+        & > div {
+            float: none;
+            display: flex;
         }
     }
     
